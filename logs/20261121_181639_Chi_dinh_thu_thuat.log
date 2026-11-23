@@ -1,0 +1,403 @@
+========================================================================
+AMK PYTHON AUTOMATION - NHẬT KÝ THỰC THI (EXECUTION LOG)
+========================================================================
+Thời gian bắt đầu : 2026-11-21 18:16:39
+Script            : Chi dinh thu thuat.py
+Đường dẫn script  : \\10.3.31.248\thongtinbv_lichtruc\KHOA HỒI SỨC TÍCH CỰC\BS ManhPham\Crack\HSTC\May 4\Python\Chi dinh thu thuat.py
+Máy trạm / User   : HSTC33 / Administrator
+Màn hình vật lý   : N/A
+Chế độ chạy       : REAL
+Tham số CLI       : ['\\\\10.3.31.248\\thongtinbv_lichtruc\\KHOA HỒI SỨC TÍCH CỰC\\BS ManhPham\\Crack\\HSTC\\May 4\\Python\\Chi dinh thu thuat.py', '--start-row', '6', '--start-delay', '3']
+Excel override    : (Tự động dò)
+Dòng bắt đầu v_x  : 6
+------------------------------------------------------------------------
+[18:16:39.072] [L2102] sleep_ms(3000)
+[18:16:42.073] [L046] Mở Excel: C:\Users\Administrator\Desktop\Database.xlsx
+[18:16:42.253] [L047] Chọn dòng bắt đầu v_x = 6 (mặc định: 3)
+[18:16:42.254] [L048] xls_get_cell('Sheet5', row=6, col=1) -> '21'
+[18:16:42.254] [L049] mouse_move_abs(1613, 275)
+[18:16:42.256] [L051] mouse_click(left, single)
+[18:16:42.274] [L052] sleep_ms(1000)
+[18:16:43.275] [L054] xls_get_cell('Sheet5', row=6, col=4) -> '18'
+[18:16:43.275] [L055] xls_get_cell('Sheet5', row=6, col=5) -> '00'
+[18:16:43.276] [L056] xls_get_cell('Sheet5', row=6, col=6) -> '00'
+[18:16:43.276] [L057] xls_get_cell('Sheet5', row=6, col=1) -> '21'
+[18:16:43.276] [L058] xls_get_cell('Sheet5', row=6, col=2) -> '11'
+[18:16:43.277] [L059] xls_get_cell('Sheet5', row=6, col=3) -> '2026'
+[18:16:43.277] [L060] xls_get_cell('Sheet5', row=14, col=2) -> 'ống xâm nhập'
+[18:16:43.278] [L061] xls_get_cell('Sheet5', row=16, col=2) -> 'Không'
+[18:16:43.278] [L062] xls_get_cell('Sheet5', row=19, col=2) -> 'Có'
+[18:16:43.278] [L063] xls_get_cell('Sheet5', row=21, col=2) -> 'Không'
+[18:16:43.279] [L064] xls_get_cell('Sheet5', row=19, col=3) -> '4'
+[18:16:43.279] [L065] xls_get_cell('Sheet5', row=21, col=3) -> '1'
+[18:16:43.279] [L066] xls_get_cell('Sheet5', row=25, col=2) -> 'Có'
+[18:16:43.280] [L067] xls_get_cell('Sheet5', row=25, col=3) -> '4'
+[18:16:43.280] [L068] key_press(0x4E, mods=['CTRL'])
+[18:16:44.120] [L070] find_image(['img_0'], region=(354, 129, 568, 157), tout=-1s, fdo=null) -> THẤY img_0 (100.0%) tại (449, 135) [null]
+[18:16:44.121] [L071] mouse_move_abs(462, 138)
+[18:16:44.132] [L073] mouse_click(left, single)
+[18:16:44.158] [L075] type_text('18', clipboard=False)
+[18:16:44.164] [L077] type_text('00', clipboard=False)
+[18:16:44.170] [L079] type_text('00', clipboard=False)
+[18:16:44.176] [L081] key_press(0x27)
+[18:16:44.298] [L083] key_press(0x27)
+[18:16:44.420] [L085] type_text('11', clipboard=False)
+[18:16:44.526] [L087] type_text('2026', clipboard=False)
+[18:16:44.636] [L089] key_press(0x25)
+[18:16:44.757] [L091] key_press(0x25)
+[18:16:44.880] [L093] key_press(0x25)
+[18:16:45.003] [L095] type_text('21', clipboard=False)
+[18:16:45.109] [L097] mouse_move_abs(361, 239)
+[18:16:45.120] [L099] mouse_click(left, single)
+[18:16:45.154] [L102] type_text('Bệnh nhân thở máy\\r\\nỨ đọng đờm hầu họng\\r\\nỨ đ...', clipboard=True)
+[18:16:45.348] [L111] find_image(['img_1'], region=(386, 424, 497, 462), tout=10s, fdo=null) -> THẤY img_1 (100.0%) tại (475, 443) [null]
+[18:16:45.449] [L113] mouse_move_abs(701, 442)
+[18:16:45.551] [L115] mouse_click(left, single)
+[18:16:45.671] [L117] key_press(0x28)
+[18:16:45.794] [L119] key_press(0x0D)
+[18:16:45.916] [L265] key_press(0x53, mods=['CTRL'])
+[18:16:46.964] [L267] find_image(['img_2'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_2=0.0% (yêu cầu 95%) tại (699, 551))
+[18:16:47.065] [L275] xls_get_cell('Sheet5', row=7, col=1) -> '21'
+[18:16:47.684] [L277] find_image(['img_3'], region=(356, 129, 564, 152), tout=-1s, fdo=null) -> THẤY img_3 (100.0%) tại (449, 135) [null]
+[18:16:47.685] [L278] key_press(0x20)
+[18:16:47.808] [L280] key_press(0x74)
+[18:16:49.099] [L282] find_image(['img_4'], region=(110, 45, 196, 94), tout=-1s, fdo=null) -> THẤY img_4 (100.0%) tại (132, 53) [null]
+[18:16:49.200] [L285] key_press(0x0D)
+[18:16:49.323] [L287] key_press(0x31, mods=['ALT'])
+[18:16:49.465] [L289] find_image(['img_5'], region=(781, 460, 1142, 690), tout=-1s, fdo=null) -> THẤY img_5 (100.0%) tại (787, 495) [null]
+[18:16:49.566] [L291] mouse_move_abs(808, 521)
+[18:16:49.667] [L293] mouse_click(left, single)
+[18:16:49.783] [L298] type_text('hstc_03', clipboard=True)
+[18:16:49.860] [L299] key_press(0x0D)
+[18:16:49.982] [L301] key_press(0x0D)
+[18:16:50.103] [L303] key_press(0x0D)
+[18:16:50.225] [L305] key_press(0x0D)
+[18:16:50.347] [L307] key_press(0x0D)
+[18:16:50.956] [L309] find_image(['img_6'], region=(1422, 463, 1889, 509), tout=-1s, fdo=null) -> THẤY img_6 (100.0%) tại (1427, 468) [null]
+[18:16:51.057] [L369] key_press(0x0D)
+[18:16:51.179] [L371] key_press(0x53, mods=['CTRL'])
+[18:16:51.207] [L372] sleep_ms(200)
+[18:16:52.424] [L373] find_image(['img_7'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_7=26.9% (yêu cầu 95%) tại (796, 588))
+[18:16:52.428] [L379] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> OK
+[18:16:52.529] [L381] key_press(0x0D)
+[18:16:52.651] [L383] key_press(0x0D)
+[18:16:52.774] [L385] key_press(0x0D)
+[18:16:52.896] [L387] key_press(0x53, mods=['CTRL'])
+[18:16:52.923] [L388] sleep_ms(200)
+[18:16:54.133] [L389] find_image(['img_8'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_8=26.9% (yêu cầu 95%) tại (796, 588))
+[18:16:55.155] [L395] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> HẾT THỜI GIAN CHỜ
+[18:16:55.256] [L397] key_press(0x0D)
+[18:16:55.388] [L399] find_image(['img_9'], region=(104, 42, 194, 92), tout=100ms, fdo=click) -> THẤY img_9 (100.0%) tại (134, 52) [click]
+[18:16:55.410] [L400] sleep_ms(200)
+[18:16:55.611] [L401] key_press(0x51, mods=['CTRL'])
+[18:16:55.740] [L403] key_press(0x0D)
+[18:16:55.869] [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null) -> THẤY img_10 (100.0%) tại (409, 406) [null]
+[18:16:55.971] [L054] xls_get_cell('Sheet5', row=7, col=4) -> '21'
+[18:16:55.972] [L055] xls_get_cell('Sheet5', row=7, col=5) -> '00'
+[18:16:55.972] [L056] xls_get_cell('Sheet5', row=7, col=6) -> '00'
+[18:16:55.973] [L057] xls_get_cell('Sheet5', row=7, col=1) -> '21'
+[18:16:55.973] [L058] xls_get_cell('Sheet5', row=7, col=2) -> '11'
+[18:16:55.974] [L059] xls_get_cell('Sheet5', row=7, col=3) -> '2026'
+[18:16:55.974] [L060] xls_get_cell('Sheet5', row=14, col=2) -> 'ống xâm nhập'
+[18:16:55.974] [L061] xls_get_cell('Sheet5', row=16, col=2) -> 'Không'
+[18:16:55.975] [L062] xls_get_cell('Sheet5', row=19, col=2) -> 'Có'
+[18:16:55.975] [L063] xls_get_cell('Sheet5', row=21, col=2) -> 'Không'
+[18:16:55.975] [L064] xls_get_cell('Sheet5', row=19, col=3) -> '4'
+[18:16:55.976] [L065] xls_get_cell('Sheet5', row=21, col=3) -> '1'
+[18:16:55.976] [L066] xls_get_cell('Sheet5', row=25, col=2) -> 'Có'
+[18:16:55.977] [L067] xls_get_cell('Sheet5', row=25, col=3) -> '4'
+[18:16:55.977] [L068] key_press(0x4E, mods=['CTRL'])
+[18:16:56.789] [L070] find_image(['img_0'], region=(354, 129, 568, 157), tout=-1s, fdo=null) -> THẤY img_0 (100.0%) tại (449, 135) [null]
+[18:16:56.790] [L071] mouse_move_abs(462, 138)
+[18:16:56.801] [L073] mouse_click(left, single)
+[18:16:56.827] [L075] type_text('21', clipboard=False)
+[18:16:56.833] [L077] type_text('00', clipboard=False)
+[18:16:56.839] [L079] type_text('00', clipboard=False)
+[18:16:56.845] [L081] key_press(0x27)
+[18:16:56.966] [L083] key_press(0x27)
+[18:16:57.088] [L085] type_text('11', clipboard=False)
+[18:16:57.194] [L087] type_text('2026', clipboard=False)
+[18:16:57.304] [L089] key_press(0x25)
+[18:16:57.427] [L091] key_press(0x25)
+[18:16:57.551] [L093] key_press(0x25)
+[18:16:57.673] [L095] type_text('21', clipboard=False)
+[18:16:57.780] [L097] mouse_move_abs(361, 239)
+[18:16:57.792] [L099] mouse_click(left, single)
+[18:16:57.824] [L102] type_text('Bệnh nhân thở máy\\r\\nỨ đọng đờm hầu họng\\r\\nỨ đ...', clipboard=True)
+[18:16:58.005] [L111] find_image(['img_1'], region=(386, 424, 497, 462), tout=10s, fdo=null) -> THẤY img_1 (100.0%) tại (475, 443) [null]
+[18:16:58.106] [L113] mouse_move_abs(701, 442)
+[18:16:58.207] [L115] mouse_click(left, single)
+[18:16:58.328] [L117] key_press(0x28)
+[18:16:58.451] [L119] key_press(0x0D)
+[18:16:58.573] [L265] key_press(0x53, mods=['CTRL'])
+[18:16:59.619] [L267] find_image(['img_2'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_2=0.0% (yêu cầu 95%) tại (699, 551))
+[18:16:59.721] [L275] xls_get_cell('Sheet5', row=8, col=1) -> '22'
+[18:17:00.381] [L277] find_image(['img_3'], region=(356, 129, 564, 152), tout=-1s, fdo=null) -> THẤY img_3 (100.0%) tại (449, 135) [null]
+[18:17:00.381] [L278] key_press(0x20)
+[18:17:00.504] [L280] key_press(0x74)
+[18:17:02.637] [L282] Đang chờ ảnh ['img_4'] (2.0s; tốt nhất: img_4=79.0% (yêu cầu 95%) tại (132, 53)) — nhấn F12 để dừng
+[18:17:03.198] [L282] find_image(['img_4'], region=(110, 45, 196, 94), tout=-1s, fdo=null) -> THẤY img_4 (100.0%) tại (132, 53) [null]
+[18:17:03.299] [L285] key_press(0x0D)
+[18:17:03.421] [L287] key_press(0x31, mods=['ALT'])
+[18:17:03.562] [L289] find_image(['img_5'], region=(781, 460, 1142, 690), tout=-1s, fdo=null) -> THẤY img_5 (100.0%) tại (787, 495) [null]
+[18:17:03.663] [L291] mouse_move_abs(808, 521)
+[18:17:03.764] [L293] mouse_click(left, single)
+[18:17:03.882] [L298] type_text('hstc_03', clipboard=True)
+[18:17:03.959] [L299] key_press(0x0D)
+[18:17:04.081] [L301] key_press(0x0D)
+[18:17:04.203] [L303] key_press(0x0D)
+[18:17:04.324] [L305] key_press(0x0D)
+[18:17:04.446] [L307] key_press(0x0D)
+[18:17:05.054] [L309] find_image(['img_6'], region=(1422, 463, 1889, 509), tout=-1s, fdo=null) -> THẤY img_6 (100.0%) tại (1427, 468) [null]
+[18:17:05.155] [L369] key_press(0x0D)
+[18:17:05.277] [L371] key_press(0x53, mods=['CTRL'])
+[18:17:05.306] [L372] sleep_ms(200)
+[18:17:06.522] [L373] find_image(['img_7'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_7=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:06.526] [L379] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> OK
+[18:17:06.627] [L381] key_press(0x0D)
+[18:17:06.749] [L383] key_press(0x0D)
+[18:17:06.872] [L385] key_press(0x0D)
+[18:17:06.995] [L387] key_press(0x53, mods=['CTRL'])
+[18:17:07.022] [L388] sleep_ms(200)
+[18:17:08.230] [L389] find_image(['img_8'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_8=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:09.244] [L395] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> HẾT THỜI GIAN CHỜ
+[18:17:09.346] [L397] key_press(0x0D)
+[18:17:09.472] [L399] find_image(['img_9'], region=(104, 42, 194, 92), tout=100ms, fdo=click) -> THẤY img_9 (100.0%) tại (134, 52) [click]
+[18:17:09.495] [L400] sleep_ms(200)
+[18:17:09.696] [L401] key_press(0x51, mods=['CTRL'])
+[18:17:09.823] [L403] key_press(0x0D)
+[18:17:09.953] [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null) -> THẤY img_10 (100.0%) tại (409, 406) [null]
+[18:17:10.055] [L054] xls_get_cell('Sheet5', row=8, col=4) -> '00'
+[18:17:10.056] [L055] xls_get_cell('Sheet5', row=8, col=5) -> '05'
+[18:17:10.056] [L056] xls_get_cell('Sheet5', row=8, col=6) -> '00'
+[18:17:10.057] [L057] xls_get_cell('Sheet5', row=8, col=1) -> '22'
+[18:17:10.057] [L058] xls_get_cell('Sheet5', row=8, col=2) -> '11'
+[18:17:10.058] [L059] xls_get_cell('Sheet5', row=8, col=3) -> '2026'
+[18:17:10.058] [L060] xls_get_cell('Sheet5', row=14, col=2) -> 'ống xâm nhập'
+[18:17:10.058] [L061] xls_get_cell('Sheet5', row=16, col=2) -> 'Không'
+[18:17:10.059] [L062] xls_get_cell('Sheet5', row=19, col=2) -> 'Có'
+[18:17:10.059] [L063] xls_get_cell('Sheet5', row=21, col=2) -> 'Không'
+[18:17:10.059] [L064] xls_get_cell('Sheet5', row=19, col=3) -> '4'
+[18:17:10.060] [L065] xls_get_cell('Sheet5', row=21, col=3) -> '1'
+[18:17:10.060] [L066] xls_get_cell('Sheet5', row=25, col=2) -> 'Có'
+[18:17:10.060] [L067] xls_get_cell('Sheet5', row=25, col=3) -> '4'
+[18:17:10.061] [L068] key_press(0x4E, mods=['CTRL'])
+[18:17:10.860] [L070] find_image(['img_0'], region=(354, 129, 568, 157), tout=-1s, fdo=null) -> THẤY img_0 (100.0%) tại (449, 135) [null]
+[18:17:10.861] [L071] mouse_move_abs(462, 138)
+[18:17:10.872] [L073] mouse_click(left, single)
+[18:17:10.898] [L075] type_text('00', clipboard=False)
+[18:17:10.904] [L077] type_text('05', clipboard=False)
+[18:17:10.910] [L079] type_text('00', clipboard=False)
+[18:17:10.916] [L081] key_press(0x27)
+[18:17:11.038] [L083] key_press(0x27)
+[18:17:11.159] [L085] type_text('11', clipboard=False)
+[18:17:11.266] [L087] type_text('2026', clipboard=False)
+[18:17:11.376] [L089] key_press(0x25)
+[18:17:11.499] [L091] key_press(0x25)
+[18:17:11.620] [L093] key_press(0x25)
+[18:17:11.743] [L095] type_text('22', clipboard=False)
+[18:17:11.849] [L097] mouse_move_abs(361, 239)
+[18:17:11.861] [L099] mouse_click(left, single)
+[18:17:11.895] [L102] type_text('Bệnh nhân thở máy\\r\\nỨ đọng đờm hầu họng\\r\\nỨ đ...', clipboard=True)
+[18:17:12.075] [L111] find_image(['img_1'], region=(386, 424, 497, 462), tout=10s, fdo=null) -> THẤY img_1 (100.0%) tại (475, 443) [null]
+[18:17:12.176] [L113] mouse_move_abs(701, 442)
+[18:17:12.277] [L115] mouse_click(left, single)
+[18:17:12.399] [L117] key_press(0x28)
+[18:17:12.521] [L119] key_press(0x0D)
+[18:17:12.643] [L265] key_press(0x53, mods=['CTRL'])
+[18:17:13.690] [L267] find_image(['img_2'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_2=0.0% (yêu cầu 95%) tại (699, 551))
+[18:17:13.791] [L275] xls_get_cell('Sheet5', row=9, col=1) -> '22'
+[18:17:14.251] [L277] find_image(['img_3'], region=(356, 129, 564, 152), tout=-1s, fdo=null) -> THẤY img_3 (100.0%) tại (449, 135) [null]
+[18:17:14.252] [L278] key_press(0x20)
+[18:17:14.374] [L280] key_press(0x74)
+[18:17:16.508] [L282] Đang chờ ảnh ['img_4'] (2.0s; tốt nhất: img_4=79.0% (yêu cầu 95%) tại (132, 53)) — nhấn F12 để dừng
+[18:17:17.028] [L282] find_image(['img_4'], region=(110, 45, 196, 94), tout=-1s, fdo=null) -> THẤY img_4 (100.0%) tại (132, 53) [null]
+[18:17:17.129] [L285] key_press(0x0D)
+[18:17:17.250] [L287] key_press(0x31, mods=['ALT'])
+[18:17:17.392] [L289] find_image(['img_5'], region=(781, 460, 1142, 690), tout=-1s, fdo=null) -> THẤY img_5 (100.0%) tại (787, 495) [null]
+[18:17:17.493] [L291] mouse_move_abs(808, 521)
+[18:17:17.595] [L293] mouse_click(left, single)
+[18:17:17.712] [L298] type_text('hstc_03', clipboard=True)
+[18:17:17.789] [L299] key_press(0x0D)
+[18:17:17.911] [L301] key_press(0x0D)
+[18:17:18.032] [L303] key_press(0x0D)
+[18:17:18.154] [L305] key_press(0x0D)
+[18:17:18.276] [L307] key_press(0x0D)
+[18:17:18.844] [L309] find_image(['img_6'], region=(1422, 463, 1889, 509), tout=-1s, fdo=null) -> THẤY img_6 (100.0%) tại (1427, 468) [null]
+[18:17:18.945] [L369] key_press(0x0D)
+[18:17:19.067] [L371] key_press(0x53, mods=['CTRL'])
+[18:17:19.094] [L372] sleep_ms(200)
+[18:17:20.299] [L373] find_image(['img_7'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_7=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:20.304] [L379] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> OK
+[18:17:20.407] [L381] key_press(0x0D)
+[18:17:20.536] [L383] key_press(0x0D)
+[18:17:20.676] [L385] key_press(0x0D)
+[18:17:20.799] [L387] key_press(0x53, mods=['CTRL'])
+[18:17:20.826] [L388] sleep_ms(200)
+[18:17:22.035] [L389] find_image(['img_8'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_8=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:23.048] [L395] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> HẾT THỜI GIAN CHỜ
+[18:17:23.149] [L397] key_press(0x0D)
+[18:17:23.276] [L399] find_image(['img_9'], region=(104, 42, 194, 92), tout=100ms, fdo=click) -> THẤY img_9 (100.0%) tại (134, 52) [click]
+[18:17:23.299] [L400] sleep_ms(200)
+[18:17:23.499] [L401] key_press(0x51, mods=['CTRL'])
+[18:17:23.627] [L403] key_press(0x0D)
+[18:17:23.757] [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null) -> THẤY img_10 (100.0%) tại (409, 406) [null]
+[18:17:23.860] [L054] xls_get_cell('Sheet5', row=9, col=4) -> '03'
+[18:17:23.860] [L055] xls_get_cell('Sheet5', row=9, col=5) -> '00'
+[18:17:23.861] [L056] xls_get_cell('Sheet5', row=9, col=6) -> '00'
+[18:17:23.861] [L057] xls_get_cell('Sheet5', row=9, col=1) -> '22'
+[18:17:23.862] [L058] xls_get_cell('Sheet5', row=9, col=2) -> '11'
+[18:17:23.862] [L059] xls_get_cell('Sheet5', row=9, col=3) -> '2026'
+[18:17:23.862] [L060] xls_get_cell('Sheet5', row=14, col=2) -> 'ống xâm nhập'
+[18:17:23.863] [L061] xls_get_cell('Sheet5', row=16, col=2) -> 'Không'
+[18:17:23.863] [L062] xls_get_cell('Sheet5', row=19, col=2) -> 'Có'
+[18:17:23.864] [L063] xls_get_cell('Sheet5', row=21, col=2) -> 'Không'
+[18:17:23.864] [L064] xls_get_cell('Sheet5', row=19, col=3) -> '4'
+[18:17:23.864] [L065] xls_get_cell('Sheet5', row=21, col=3) -> '1'
+[18:17:23.865] [L066] xls_get_cell('Sheet5', row=25, col=2) -> 'Có'
+[18:17:23.865] [L067] xls_get_cell('Sheet5', row=25, col=3) -> '4'
+[18:17:23.865] [L068] key_press(0x4E, mods=['CTRL'])
+[18:17:24.718] [L070] find_image(['img_0'], region=(354, 129, 568, 157), tout=-1s, fdo=null) -> THẤY img_0 (100.0%) tại (449, 135) [null]
+[18:17:24.718] [L071] mouse_move_abs(462, 138)
+[18:17:24.729] [L073] mouse_click(left, single)
+[18:17:24.756] [L075] type_text('03', clipboard=False)
+[18:17:24.762] [L077] type_text('00', clipboard=False)
+[18:17:24.768] [L079] type_text('00', clipboard=False)
+[18:17:24.774] [L081] key_press(0x27)
+[18:17:24.895] [L083] key_press(0x27)
+[18:17:25.017] [L085] type_text('11', clipboard=False)
+[18:17:25.123] [L087] type_text('2026', clipboard=False)
+[18:17:25.233] [L089] key_press(0x25)
+[18:17:25.354] [L091] key_press(0x25)
+[18:17:25.476] [L093] key_press(0x25)
+[18:17:25.597] [L095] type_text('22', clipboard=False)
+[18:17:25.703] [L097] mouse_move_abs(361, 239)
+[18:17:25.713] [L099] mouse_click(left, single)
+[18:17:25.739] [L102] type_text('Bệnh nhân thở máy\\r\\nỨ đọng đờm hầu họng\\r\\nỨ đ...', clipboard=True)
+[18:17:25.919] [L111] find_image(['img_1'], region=(386, 424, 497, 462), tout=10s, fdo=null) -> THẤY img_1 (100.0%) tại (475, 443) [null]
+[18:17:26.020] [L113] mouse_move_abs(701, 442)
+[18:17:26.121] [L115] mouse_click(left, single)
+[18:17:26.243] [L117] key_press(0x28)
+[18:17:26.365] [L119] key_press(0x0D)
+[18:17:26.486] [L265] key_press(0x53, mods=['CTRL'])
+[18:17:27.535] [L267] find_image(['img_2'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_2=0.0% (yêu cầu 95%) tại (699, 551))
+[18:17:27.636] [L275] xls_get_cell('Sheet5', row=10, col=1) -> '22'
+[18:17:28.175] [L277] find_image(['img_3'], region=(356, 129, 564, 152), tout=-1s, fdo=null) -> THẤY img_3 (100.0%) tại (449, 135) [null]
+[18:17:28.176] [L278] key_press(0x20)
+[18:17:28.298] [L280] key_press(0x74)
+[18:17:30.432] [L282] Đang chờ ảnh ['img_4'] (2.0s; tốt nhất: img_4=79.0% (yêu cầu 95%) tại (132, 53)) — nhấn F12 để dừng
+[18:17:30.992] [L282] find_image(['img_4'], region=(110, 45, 196, 94), tout=-1s, fdo=null) -> THẤY img_4 (100.0%) tại (132, 53) [null]
+[18:17:31.093] [L285] key_press(0x0D)
+[18:17:31.216] [L287] key_press(0x31, mods=['ALT'])
+[18:17:31.356] [L289] find_image(['img_5'], region=(781, 460, 1142, 690), tout=-1s, fdo=null) -> THẤY img_5 (100.0%) tại (787, 495) [null]
+[18:17:31.457] [L291] mouse_move_abs(808, 521)
+[18:17:31.559] [L293] mouse_click(left, single)
+[18:17:31.677] [L298] type_text('hstc_03', clipboard=True)
+[18:17:31.754] [L299] key_press(0x0D)
+[18:17:31.876] [L301] key_press(0x0D)
+[18:17:31.998] [L303] key_press(0x0D)
+[18:17:32.119] [L305] key_press(0x0D)
+[18:17:32.241] [L307] key_press(0x0D)
+[18:17:32.809] [L309] find_image(['img_6'], region=(1422, 463, 1889, 509), tout=-1s, fdo=null) -> THẤY img_6 (100.0%) tại (1427, 468) [null]
+[18:17:32.909] [L369] key_press(0x0D)
+[18:17:33.031] [L371] key_press(0x53, mods=['CTRL'])
+[18:17:33.059] [L372] sleep_ms(200)
+[18:17:34.263] [L373] find_image(['img_7'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_7=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:34.268] [L379] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> OK
+[18:17:34.369] [L381] key_press(0x0D)
+[18:17:34.491] [L383] key_press(0x0D)
+[18:17:34.613] [L385] key_press(0x0D)
+[18:17:34.735] [L387] key_press(0x53, mods=['CTRL'])
+[18:17:34.763] [L388] sleep_ms(200)
+[18:17:35.972] [L389] find_image(['img_8'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_8=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:36.986] [L395] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> HẾT THỜI GIAN CHỜ
+[18:17:37.087] [L397] key_press(0x0D)
+[18:17:37.213] [L399] find_image(['img_9'], region=(104, 42, 194, 92), tout=100ms, fdo=click) -> THẤY img_9 (100.0%) tại (134, 52) [click]
+[18:17:37.236] [L400] sleep_ms(200)
+[18:17:37.437] [L401] key_press(0x51, mods=['CTRL'])
+[18:17:37.564] [L403] key_press(0x0D)
+[18:17:37.695] [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null) -> THẤY img_10 (100.0%) tại (409, 406) [null]
+[18:17:37.797] [L054] xls_get_cell('Sheet5', row=10, col=4) -> '06'
+[18:17:37.797] [L055] xls_get_cell('Sheet5', row=10, col=5) -> '00'
+[18:17:37.798] [L056] xls_get_cell('Sheet5', row=10, col=6) -> '00'
+[18:17:37.798] [L057] xls_get_cell('Sheet5', row=10, col=1) -> '22'
+[18:17:37.798] [L058] xls_get_cell('Sheet5', row=10, col=2) -> '11'
+[18:17:37.799] [L059] xls_get_cell('Sheet5', row=10, col=3) -> '2026'
+[18:17:37.799] [L060] xls_get_cell('Sheet5', row=14, col=2) -> 'ống xâm nhập'
+[18:17:37.800] [L061] xls_get_cell('Sheet5', row=16, col=2) -> 'Không'
+[18:17:37.800] [L062] xls_get_cell('Sheet5', row=19, col=2) -> 'Có'
+[18:17:37.800] [L063] xls_get_cell('Sheet5', row=21, col=2) -> 'Không'
+[18:17:37.801] [L064] xls_get_cell('Sheet5', row=19, col=3) -> '4'
+[18:17:37.801] [L065] xls_get_cell('Sheet5', row=21, col=3) -> '1'
+[18:17:37.801] [L066] xls_get_cell('Sheet5', row=25, col=2) -> 'Có'
+[18:17:37.802] [L067] xls_get_cell('Sheet5', row=25, col=3) -> '4'
+[18:17:37.802] [L068] key_press(0x4E, mods=['CTRL'])
+[18:17:38.642] [L070] find_image(['img_0'], region=(354, 129, 568, 157), tout=-1s, fdo=null) -> THẤY img_0 (100.0%) tại (449, 135) [null]
+[18:17:38.643] [L071] mouse_move_abs(462, 138)
+[18:17:38.653] [L073] mouse_click(left, single)
+[18:17:38.680] [L075] type_text('06', clipboard=False)
+[18:17:38.686] [L077] type_text('00', clipboard=False)
+[18:17:38.692] [L079] type_text('00', clipboard=False)
+[18:17:38.697] [L081] key_press(0x27)
+[18:17:38.819] [L083] key_press(0x27)
+[18:17:38.940] [L085] type_text('11', clipboard=False)
+[18:17:39.046] [L087] type_text('2026', clipboard=False)
+[18:17:39.156] [L089] key_press(0x25)
+[18:17:39.278] [L091] key_press(0x25)
+[18:17:39.401] [L093] key_press(0x25)
+[18:17:39.524] [L095] type_text('22', clipboard=False)
+[18:17:39.629] [L097] mouse_move_abs(361, 239)
+[18:17:39.640] [L099] mouse_click(left, single)
+[18:17:39.663] [L102] type_text('Bệnh nhân thở máy\\r\\nỨ đọng đờm hầu họng\\r\\nỨ đ...', clipboard=True)
+[18:17:39.844] [L111] find_image(['img_1'], region=(386, 424, 497, 462), tout=10s, fdo=null) -> THẤY img_1 (100.0%) tại (475, 443) [null]
+[18:17:39.944] [L113] mouse_move_abs(701, 442)
+[18:17:40.045] [L115] mouse_click(left, single)
+[18:17:40.166] [L117] key_press(0x28)
+[18:17:40.288] [L119] key_press(0x0D)
+[18:17:40.410] [L265] key_press(0x53, mods=['CTRL'])
+[18:17:41.459] [L267] find_image(['img_2'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_2=0.0% (yêu cầu 95%) tại (699, 551))
+[18:17:41.560] [L275] xls_get_cell('Sheet5', row=11, col=1) -> ''
+[18:17:42.019] [L277] find_image(['img_3'], region=(356, 129, 564, 152), tout=-1s, fdo=null) -> THẤY img_3 (100.0%) tại (449, 135) [null]
+[18:17:42.020] [L278] key_press(0x20)
+[18:17:42.142] [L280] key_press(0x74)
+[18:17:44.275] [L282] Đang chờ ảnh ['img_4'] (2.0s; tốt nhất: img_4=79.0% (yêu cầu 95%) tại (132, 53)) — nhấn F12 để dừng
+[18:17:45.757] [L282] find_image(['img_4'], region=(110, 45, 196, 94), tout=-1s, fdo=null) -> THẤY img_4 (100.0%) tại (132, 53) [null]
+[18:17:45.858] [L285] key_press(0x0D)
+[18:17:45.980] [L287] key_press(0x31, mods=['ALT'])
+[18:17:46.122] [L289] find_image(['img_5'], region=(781, 460, 1142, 690), tout=-1s, fdo=null) -> THẤY img_5 (100.0%) tại (787, 495) [null]
+[18:17:46.223] [L291] mouse_move_abs(808, 521)
+[18:17:46.324] [L293] mouse_click(left, single)
+[18:17:46.442] [L298] type_text('hstc_03', clipboard=True)
+[18:17:46.519] [L299] key_press(0x0D)
+[18:17:46.641] [L301] key_press(0x0D)
+[18:17:46.763] [L303] key_press(0x0D)
+[18:17:46.884] [L305] key_press(0x0D)
+[18:17:47.005] [L307] key_press(0x0D)
+[18:17:47.613] [L309] find_image(['img_6'], region=(1422, 463, 1889, 509), tout=-1s, fdo=null) -> THẤY img_6 (100.0%) tại (1427, 468) [null]
+[18:17:47.714] [L369] key_press(0x0D)
+[18:17:47.836] [L371] key_press(0x53, mods=['CTRL'])
+[18:17:47.863] [L372] sleep_ms(200)
+[18:17:49.068] [L373] find_image(['img_7'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_7=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:49.073] [L379] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> OK
+[18:17:49.175] [L381] key_press(0x0D)
+[18:17:49.298] [L383] key_press(0x0D)
+[18:17:49.421] [L385] key_press(0x0D)
+[18:17:49.543] [L387] key_press(0x53, mods=['CTRL'])
+[18:17:49.570] [L388] sleep_ms(200)
+[18:17:50.777] [L389] find_image(['img_8'], region=(691, 542, 829, 633), tout=1s, fdo=click) -> KHÔNG THẤY sau 1s (tốt nhất: img_8=26.9% (yêu cầu 95%) tại (796, 588))
+[18:17:51.792] [L395] wait_window('FPT eHospital Management System', appear=True, tout=1s, switch=True) -> HẾT THỜI GIAN CHỜ
+[18:17:51.894] [L397] key_press(0x0D)
+[18:17:52.032] [L399] find_image(['img_9'], region=(104, 42, 194, 92), tout=100ms, fdo=click) -> THẤY img_9 (100.0%) tại (134, 52) [click]
+[18:17:52.055] [L400] sleep_ms(200)
+[18:17:52.255] [L401] key_press(0x51, mods=['CTRL'])
+[18:17:52.383] [L403] key_press(0x0D)
+[18:17:52.514] [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null) -> THẤY img_10 (100.0%) tại (409, 406) [null]
+------------------------------------------------------------------------
+TỔNG KẾT KẾT QUẢ (EXECUTION SUMMARY)
+------------------------------------------------------------------------
+Trạng thái        : SUCCESS
+Thời gian kết thúc: 2026-11-21 18:17:52 (Thời lượng: 73.55s)
+Tổng số bước      : 284
+Bước cuối cùng    : [L405] find_image(['img_10'], region=(403, 400, 1531, 422), tout=-1s, fdo=null)
+Chi tiết khớp ảnh : khớp img_10=100.0% (yêu cầu 95%) tại (409, 406)
+========================================================================
